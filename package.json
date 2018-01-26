@@ -1,0 +1,31 @@
+{
+  "name": "todo_list",
+  "version": "1.0.0",
+  "description": "Réaliser une todo list permettant d'ajouter des choses à se rappeler. Une fois qu'une chose est faite, la rayer. Rajouter la possibilité de n'afficher que les tâches faites, les tâches à faire ou toutes les tâches.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElisaDemanez/Todo_List.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElisaDemanez/Todo_List/issues"
+  },
+  "homepage": "https://github.com/ElisaDemanez/Todo_List#readme",
+  "devDependencies": {
+    "browser-sync": "^2.19.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "merge-stream": "^1.0.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "materialize-css": "^0.100.2"
+  }
+}

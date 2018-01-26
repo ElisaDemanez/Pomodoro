@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./dist/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="./dist/css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class='background'></div>
+    <h1>POMODORORODODOROODORERE</h1>
+    <main>
+
+        <form>
+            <input type="text" id="entryInput" placeholder="Nouvelle tâche">
+            <label for="entree"></label>
+            <button id="validationBtn" href="#" type="submit" name="action" class="btn waves-effect waves-light right">Nouvelle tâche
+                <i class="material-icons right">send</i>
+            </button>
+        </form>
+
+
+       
+            <i class="material-icons tiny dropdown-button btn" data-activates='dropdown1' >mode_edit</i>
+        
+
+
+
+
+
+        <section class="container row">
+
+            <div class="col m4">
+                <h2>Tâches en cours</h2>
+                <ul id="tasks" class="row">
+
+
+                    <!-- <li class="col m10">
+                        <div>hélo</div>
+                        <div>Temps restant :
+                            <span></span>
+                        </div>
+                        <a class="btn waves-effect waves-light right red-lighten">
+                            <i href="#" class="material-icons">delete</i>
+                        </a>
+                    </li> -->
+                </ul>
+
+
+
+            </div>
+            <div class="col m4">
+                <h2>Tâche en cours</h2>
+
+                <div id='timer'></div>
+                <div id="timerBtns">
+                    <a id="start" href="#" class="btn waves-effect waves-light">Play
+                        <i class="material-icons "></i>
+                    </a>
+                    <a id="pause" href="#" class="btn waves-effect waves-light">Pause
+                        <i class="material-icons ">pause</i>
+                    </a>
+
+                    <a id="stop" href="#" class="btn waves-effect waves-light">Fini
+                        <i class="material-icons ">check</i>
+                    </a>
+                </div>
+                <ul id="running">
+
+                </ul>
+            </div>
+
+
+            <div class="col m4">
+                <h2>Tâches finies</h2>
+                <ul id="done"></ul>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal modal-fixed-footer">
+        <div class="modal-content">
+
+            <p>are you sure you want to delete your task ? </p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-red btn-flat ">Cancel</a>
+            <a href="#!" id="deleteLiBtn" class="modal-action modal-close waves-effect waves-green btn-flat ">Yes, IM SURE FCK</a>
+        </div>
+    </div>
+
+    <form id='dropdown1' class='dropdown-content'>
+        <input type="text" id="entryInput" placeholder="Nouvelle tâche">
+        <label for="entree"></label>
+        <i class="material-icons right tiny ">send</i>
+    </form>
+
+    <div id="testbg"></div>
+
+    <script src="./dist/js/jquery.min.js"></script>
+    <script src="./dist/js/materialize.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
